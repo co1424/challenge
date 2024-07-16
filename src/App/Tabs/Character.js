@@ -17,7 +17,14 @@ function Character({ character }) {
 
   return (
     <div>
-      <h2>{data.name}</h2>
+      <h2>Characher Name: {data.name}</h2>
+      <p>Gender: {data.gender}</p>
+      <p>Marital Status: {data.marital}</p>
+      <p>Workplace: {data.workplace}</p>
+      <p>Actor/Actress: {data.actor}</p>
+
+
+
     </div>
   );
 }
